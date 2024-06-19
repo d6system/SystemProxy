@@ -592,7 +592,7 @@
                 "inputs": {},
                 "options": {
                     "text1": "config/status.txt",
-                    "text2": "config/server.txt",
+                    "text2": "config/adminserver.txt",
                     "text3": "config/logchannel.txt"
                 },
                 "outputs": {
