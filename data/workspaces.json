@@ -258,7 +258,7 @@
                 "name": "text",
                 "inputs": {},
                 "options": {
-                    "text": "ValkyriaBot™ version 7.0.4\nSystemProxy version 0.0.1"
+                    "text": "SystemProxy version 0.0.2"
                 },
                 "outputs": {
                     "text": [
@@ -707,6 +707,540 @@
                 }
             }
         ],
+        "notes": []
+    },
+    {
+        "id": "ZkXq2OpeG0",
+        "active": true,
+        "info": {
+            "title": "Debug",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [
+            {
+                "name": "check_comparison",
+                "inputs": {
+                    "action": "pZysUH0roz",
+                    "value1": "t3udRQTy23",
+                    "value2": "y73cWlT4RQ"
+                },
+                "options": {
+                    "comparison_type": "start_with",
+                    "value2": "setserver "
+                },
+                "outputs": {
+                    "action1": [
+                        "HOhd0S21KG"
+                    ],
+                    "action2": []
+                },
+                "info": {
+                    "x": 50,
+                    "y": 1210,
+                    "z": 0,
+                    "width": 476,
+                    "height": 190,
+                    "color": ""
+                }
+            },
+            {
+                "name": "replace_text",
+                "inputs": {
+                    "action": "HOhd0S21KG",
+                    "source_text": "3mf2HhesbQ",
+                    "old_text": "FPs3vItRiu",
+                    "new_text": "w6jo6gHs2r"
+                },
+                "options": {
+                    "replacement_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "QDW61roaNm"
+                    ],
+                    "text": [
+                        "6AmMLTkBgl",
+                        "2KFsyXFhi6"
+                    ]
+                },
+                "info": {
+                    "x": 770,
+                    "y": 1260,
+                    "z": 0,
+                    "width": 345,
+                    "height": 164,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text_3x",
+                "inputs": {},
+                "options": {
+                    "text1": "config/adminserver.txt",
+                    "text2": "setserver ",
+                    "text3": ""
+                },
+                "outputs": {
+                    "text1": [
+                        "VhSUTwdx39"
+                    ],
+                    "text2": [
+                        "FPs3vItRiu"
+                    ],
+                    "text3": [
+                        "w6jo6gHs2r"
+                    ]
+                },
+                "info": {
+                    "x": 190,
+                    "y": 1420,
+                    "z": 0,
+                    "width": 287,
+                    "height": 247,
+                    "color": ""
+                }
+            },
+            {
+                "name": "bot_input",
+                "inputs": {},
+                "options": {},
+                "outputs": {
+                    "action": [
+                        "Eb8hSQ2N8l"
+                    ],
+                    "value": [
+                        "j0pABIRFrf",
+                        "Ek7fJlUWPN",
+                        "ID93wCzBuI",
+                        "nc0tEZhq8D",
+                        "t3udRQTy23",
+                        "3mf2HhesbQ"
+                    ]
+                },
+                "info": {
+                    "x": 100,
+                    "y": 60,
+                    "z": 0,
+                    "width": 228,
+                    "height": 112,
+                    "color": ""
+                }
+            },
+            {
+                "name": "stop_bot",
+                "inputs": {
+                    "action": "4qKyrz2l5t"
+                },
+                "options": {},
+                "outputs": {},
+                "info": {
+                    "x": 2560,
+                    "y": 230,
+                    "z": 0,
+                    "width": 122,
+                    "height": 86,
+                    "color": ""
+                }
+            },
+            {
+                "name": "check_comparison",
+                "inputs": {
+                    "action": "Eb8hSQ2N8l",
+                    "value1": "j0pABIRFrf",
+                    "value2": "ire2crwMLo"
+                },
+                "options": {
+                    "comparison_type": "equal",
+                    "value2": "reload"
+                },
+                "outputs": {
+                    "action1": [
+                        "1r2NyXaVoc"
+                    ],
+                    "action2": [
+                        "6rMLjjUb3U"
+                    ]
+                },
+                "info": {
+                    "x": 50,
+                    "y": 240,
+                    "z": 0,
+                    "width": 476,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "set_bot_activity",
+                "inputs": {
+                    "action": "1r2NyXaVoc",
+                    "activity_name": "JlMYlnK7j9",
+                    "activity_url": "F2AtuC0XVa"
+                },
+                "options": {
+                    "activity_type": "playing"
+                },
+                "outputs": {
+                    "action": [
+                        "klxCi8zSHU"
+                    ]
+                },
+                "info": {
+                    "x": 790,
+                    "y": 130,
+                    "z": 0,
+                    "width": 400,
+                    "height": 150,
+                    "color": ""
+                }
+            },
+            {
+                "name": "wait_with_number",
+                "inputs": {
+                    "action": "DUfH0XQbdV"
+                },
+                "options": {
+                    "time_type": "seconds",
+                    "time": 5
+                },
+                "outputs": {
+                    "action": [
+                        "toS6YvcYok"
+                    ]
+                },
+                "info": {
+                    "x": 1710,
+                    "y": 180,
+                    "z": 0,
+                    "width": 376,
+                    "height": 156,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "Restarting, BRB"
+                },
+                "outputs": {
+                    "text": [
+                        "JlMYlnK7j9"
+                    ]
+                },
+                "info": {
+                    "x": 430,
+                    "y": 70,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "console_log",
+                "inputs": {
+                    "action": "klxCi8zSHU",
+                    "value": "yw5GRR1LFr"
+                },
+                "options": {
+                    "value": "[bot] Restarting, brb!"
+                },
+                "outputs": {
+                    "action": [
+                        "DUfH0XQbdV"
+                    ]
+                },
+                "info": {
+                    "x": 1280,
+                    "y": 180,
+                    "z": 0,
+                    "width": 364,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "console_log",
+                "inputs": {
+                    "action": "toS6YvcYok",
+                    "value": "9cm5Bal26M"
+                },
+                "options": {
+                    "value": "[system] Server shut down succesfully!"
+                },
+                "outputs": {
+                    "action": [
+                        "4qKyrz2l5t"
+                    ]
+                },
+                "info": {
+                    "x": 2140,
+                    "y": 220,
+                    "z": 0,
+                    "width": 364,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "replace_text",
+                "inputs": {
+                    "action": "YdepauUxBG",
+                    "source_text": "ID93wCzBuI",
+                    "old_text": "dkrxB9BoBt",
+                    "new_text": "F8deyUsHDx"
+                },
+                "options": {
+                    "replacement_type": "first"
+                },
+                "outputs": {
+                    "action": [
+                        "zrNG9xQWEX"
+                    ],
+                    "text": [
+                        "GRxZAOnXZl"
+                    ]
+                },
+                "info": {
+                    "x": 1010,
+                    "y": 440,
+                    "z": 0,
+                    "width": 345,
+                    "height": 164,
+                    "color": ""
+                }
+            },
+            {
+                "name": "check_comparison",
+                "inputs": {
+                    "action": "6rMLjjUb3U",
+                    "value1": "Ek7fJlUWPN",
+                    "value2": "Jg4Q6jnLQX"
+                },
+                "options": {
+                    "comparison_type": "start_with",
+                    "value2": "setstatus"
+                },
+                "outputs": {
+                    "action1": [
+                        "YdepauUxBG"
+                    ],
+                    "action2": [
+                        "zXGVD7gDzK"
+                    ]
+                },
+                "info": {
+                    "x": 50,
+                    "y": 440,
+                    "z": 0,
+                    "width": 476,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text_2x",
+                "inputs": {},
+                "options": {
+                    "text1": "setstatus ",
+                    "text2": ""
+                },
+                "outputs": {
+                    "text1": [
+                        "dkrxB9BoBt"
+                    ],
+                    "text2": [
+                        "F8deyUsHDx"
+                    ]
+                },
+                "info": {
+                    "x": 640,
+                    "y": 550,
+                    "z": 0,
+                    "width": 287,
+                    "height": 182,
+                    "color": ""
+                }
+            },
+            {
+                "name": "set_bot_activity",
+                "inputs": {
+                    "action": "zrNG9xQWEX",
+                    "activity_name": "GRxZAOnXZl",
+                    "activity_url": "fuHwKyKAHv"
+                },
+                "options": {
+                    "activity_type": "playing"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "info": {
+                    "x": 1410,
+                    "y": 500,
+                    "z": 0,
+                    "width": 400,
+                    "height": 150,
+                    "color": ""
+                }
+            },
+            {
+                "name": "check_comparison",
+                "inputs": {
+                    "action": "zXGVD7gDzK",
+                    "value1": "nc0tEZhq8D",
+                    "value2": "cG3Hto8Ah7"
+                },
+                "options": {
+                    "comparison_type": "equal",
+                    "value2": "update"
+                },
+                "outputs": {
+                    "action1": [
+                        "UhNs7c23Je"
+                    ],
+                    "action2": [
+                        "pZysUH0roz"
+                    ]
+                },
+                "info": {
+                    "x": 50,
+                    "y": 650,
+                    "z": 0,
+                    "width": 476,
+                    "height": 171,
+                    "color": ""
+                }
+            },
+            {
+                "name": "set_bot_activity",
+                "inputs": {
+                    "action": "UhNs7c23Je",
+                    "activity_name": "00qhS33lIp",
+                    "activity_url": "mNiRIrxoiR"
+                },
+                "options": {
+                    "activity_type": "playing"
+                },
+                "outputs": {
+                    "action": []
+                },
+                "info": {
+                    "x": 910,
+                    "y": 820,
+                    "z": 0,
+                    "width": 400,
+                    "height": 150,
+                    "color": ""
+                }
+            },
+            {
+                "name": "text",
+                "inputs": {},
+                "options": {
+                    "text": "[bot] Updating code"
+                },
+                "outputs": {
+                    "text": [
+                        "00qhS33lIp"
+                    ]
+                },
+                "info": {
+                    "x": 520,
+                    "y": 1000,
+                    "z": 0,
+                    "width": 276,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "write_file",
+                "inputs": {
+                    "action": "QDW61roaNm",
+                    "file_path": "VhSUTwdx39",
+                    "content": "6AmMLTkBgl"
+                },
+                "options": {
+                    "conversion_type": "text"
+                },
+                "outputs": {
+                    "action": [
+                        "viZydc53p6"
+                    ]
+                },
+                "info": {
+                    "x": 1420,
+                    "y": 1320,
+                    "z": 0,
+                    "width": 398,
+                    "height": 138,
+                    "color": ""
+                }
+            },
+            {
+                "name": "console_log",
+                "inputs": {
+                    "action": "nWLud7RVHV",
+                    "value": "EbBrJcFDxI"
+                },
+                "options": {
+                    "value": ""
+                },
+                "outputs": {
+                    "action": []
+                },
+                "info": {
+                    "x": 2510,
+                    "y": 1400,
+                    "z": 0,
+                    "width": 364,
+                    "height": 117,
+                    "color": ""
+                }
+            },
+            {
+                "name": "merge_texts_advanced",
+                "inputs": {
+                    "action": "viZydc53p6",
+                    "text1": "2KFsyXFhi6",
+                    "text2": "yEST2xaiMP",
+                    "text3": "Xoh0Jvf4zu"
+                },
+                "options": {
+                    "text": "Server ID of admin server set to: ${text1}"
+                },
+                "outputs": {
+                    "action": [
+                        "nWLud7RVHV"
+                    ],
+                    "text": [
+                        "EbBrJcFDxI"
+                    ]
+                },
+                "info": {
+                    "x": 1910,
+                    "y": 1350,
+                    "z": 0,
+                    "width": 364,
+                    "height": 164,
+                    "color": ""
+                }
+            }
+        ],
+        "notes": []
+    },
+    {
+        "id": "EzcW1ryKEu",
+        "active": true,
+        "info": {
+            "title": "Setconfig",
+            "description": "",
+            "thumbnail": ""
+        },
+        "blocks": [],
         "notes": []
     }
 ]
